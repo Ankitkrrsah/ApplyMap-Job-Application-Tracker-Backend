@@ -2,7 +2,7 @@
 
 A robust REST API for tracking job applications, built with Node.js, Express, and PostgreSQL. This backend handles user authentication, company management, and application tracking with a focus on data integrity and normalization.
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 *   **Runtime:** Node.js
 *   **Framework:** Express.js (v5)
@@ -11,7 +11,7 @@ A robust REST API for tracking job applications, built with Node.js, Express, an
 *   **Authentication:** JWT (JSON Web Tokens) & `bcrypt` for password hashing
 *   **Environment:** `dotenv`
 
-## ✨ Key Features
+##  Key Features
 
 *   **User Authentication:** Secure registration and login with JWT issuance.
 *   **Application Tracking:** CRUD operations for job applications (Role, Status, Date).
@@ -92,7 +92,7 @@ npm start
 ```
 The server will run on `http://localhost:8044` (or your defined PORT).
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Auth
 *   `POST /api/auth/register` - Create a new account.
