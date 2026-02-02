@@ -18,6 +18,13 @@ app.use("/api/auth", authRoutes);
 app.use("/api/companies", companyRoutes);
 app.use("/api/applications", applicationRoutes);
 
+// catch all / fallback routes
+app.use((req , res)=>{
+  return res.status(404).json({ 
+    success : false , 
+    message : "Route doens't exist" 
+  })
+})
 app.use(errorHandler);
 
 export default app;
